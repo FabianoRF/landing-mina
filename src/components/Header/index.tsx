@@ -13,7 +13,9 @@ const Header: React.FC<HeaderProps> = ({ isBackground = false }) => {
   return (
     <Container isBackground={isBackground}>
       <div>
-        <img src={logoMinaSvg} alt="logo mina" />
+        <Link to="/">
+          <img src={logoMinaSvg} alt="logo mina" />
+        </Link>
 
         <div className="box-links">
           <Link to="/updates" className="btn-update">
