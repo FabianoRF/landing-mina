@@ -6,10 +6,10 @@ import { Container } from './styles';
 import logoMinaSvg from '../../assets/logoMina.svg';
 
 interface HeaderProps {
-  isBackground: boolean;
+  isBackground?: boolean;
 }
 
-const Header: React.FC<HeaderProps> = ({ isBackground }) => {
+const Header: React.FC<HeaderProps> = ({ isBackground = false }) => {
   return (
     <Container isBackground={isBackground}>
       <div>
