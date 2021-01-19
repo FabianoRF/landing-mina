@@ -8,7 +8,7 @@ const Routes: React.FC = () => {
     <Switch>
       <Route path="/" component={Landing} exact />
     </Switch>
-  )
-}
+  );
+};
 
 export default Routes;
