@@ -1,5 +1,5 @@
 import React from 'react';
-import MailchimpSubscribe, { SubscribeArg } from 'react-mailchimp-subscribe';
+import MailchimpSubscribe from 'react-mailchimp-subscribe';
 
 import { Container } from './styles';
 
@@ -17,7 +17,7 @@ const CustomSubscribeForm: React.FC = () => (
   <Container>
     <MailchimpSubscribe
       url={url}
-      render={({ subscribe, status, message }) => (
+      render={({ subscribe, status }) => (
         <div>
           <SimpleForm onSubmitted={formData => subscribe(formData)} />
           {status === 'sending' && (
