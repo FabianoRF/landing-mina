@@ -65,4 +65,34 @@ export const Container = styled.header<ContainerProps>`
       }
     }
   }
+
+  @media (max-width: 980px) {
+    padding: 30px;
+    > div {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-areas: 'a b c';
+      justify-content: center;
+
+      > a {
+        grid-area: b;
+        display: flex;
+        justify-content: center;
+      }
+
+      svg {
+        grid-area: c;
+        color: #092546;
+        height: 30px;
+        width: 30px;
+        margin-left: auto;
+
+        cursor: pointer;
+
+        &:hover {
+          color: #033a7a;
+        }
+      }
+    }
+  }
 `;
