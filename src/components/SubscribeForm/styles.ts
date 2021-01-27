@@ -35,4 +35,21 @@ export const Container = styled.div`
       background: #024390;
     }
   }
+
+  @media (max-width: 980px) {
+    .box-buttons {
+      width: 100%;
+      > div {
+        display: flex;
+        flex-direction: column;
+
+        input,
+        button {
+          width: 315px;
+          margin: 0;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
 `;

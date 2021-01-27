@@ -37,4 +37,24 @@ export const Container = styled.footer`
       }
     }
   }
+
+  @media (max-width: 980px) {
+    padding: 30px 0;
+    section {
+      flex-direction: column;
+      align-items: center;
+
+      > div {
+        align-items: center;
+        & + div {
+          margin-top: 45px;
+        }
+        span {
+          & + span {
+            margin-top: 15px;
+          }
+        }
+      }
+    }
+  }
 `;

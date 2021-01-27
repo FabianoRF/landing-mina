@@ -18,7 +18,7 @@ const CustomSubscribeForm: React.FC = () => (
     <MailchimpSubscribe
       url={url}
       render={({ subscribe, status }) => (
-        <div>
+        <div className="box-buttons">
           <SimpleForm onSubmitted={formData => subscribe(formData)} />
           {status === 'sending' && (
             <div style={{ color: 'blue' }}>sending...</div>

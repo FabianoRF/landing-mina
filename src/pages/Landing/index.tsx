@@ -22,16 +22,15 @@ const Landing: React.FC = () => {
       <Container>
         <div className="background-section">
           <section>
-            <div className="titles-container">
+            <div className="data-container">
               <h1>A proteção delas, por elas, para elas</h1>
               <p>
                 Conectando mulheres para se protegerem, construindo uma
                 comunidade forte e segura
               </p>
-            </div>
-
-            <div className="input-container">
-              <SubscribeForm />
+              <div className="input-container">
+                <SubscribeForm />
+              </div>
             </div>
 
             <div className="img-container">
@@ -62,7 +61,11 @@ const Landing: React.FC = () => {
             <img src={girlsImg3} alt="girls" />
 
             <div>
-              <h2>Nossa missão</h2>
+              <h2>
+                Nossa
+                <br />
+                missão
+              </h2>
               <p>
                 Nós acreditamos que todas as mulheres tem o direito de ser
                 livres, ir onde quiser, vestir o que quiser, sem ter
