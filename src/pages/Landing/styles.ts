@@ -16,7 +16,7 @@ export const Container = styled.main`
   .background-section {
     background: rgba(250, 70, 146, 0.1);
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.02);
-    height: 500px;
+    height: 520px;
     padding-top: 50px;
     margin-bottom: 160px;
     width: 100%;
@@ -24,7 +24,8 @@ export const Container = styled.main`
     justify-content: center;
 
     > section {
-      max-width: 1280px;
+      max-width: 1240px;
+      margin-top: 60px;
       width: 100%;
       display: flex;
       align-items: center;
@@ -32,6 +33,7 @@ export const Container = styled.main`
       .data-container {
         max-width: 580px;
         margin-right: 200px;
+        margin-top: -60px;
         h1 {
           font-size: 54px;
           font-weight: 600;
@@ -40,15 +42,18 @@ export const Container = styled.main`
         }
         p {
           font-size: 14px;
+          margin-top: 30px;
+          width: 400px;
         }
         .input-container {
-          margin-top: 30px;
+          margin-top: 60px;
         }
       }
 
       .img-container {
         display: flex;
         justify-content: flex-end;
+        margin-left: -50px;
 
         img {
           margin-right: 20px;

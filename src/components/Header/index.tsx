@@ -29,7 +29,7 @@ const Header: React.FC<HeaderProps> = ({ isBackground = false }) => {
               <Link to="/updates" className="btn-update">
                 Updates
               </Link>
-              <Link to="/updates" className="btn-acess">
+              <Link to="/confirmation" className="btn-acess">
                 Acesso antecipado
               </Link>
             </div>

@@ -9,7 +9,7 @@ export const Container = styled.footer`
 
   section {
     width: 100%;
-    max-width: 1280px;
+    max-width: 1080px;
     display: flex;
     justify-content: space-between;
     align-items: initial;

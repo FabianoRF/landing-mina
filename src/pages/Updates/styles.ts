@@ -64,4 +64,50 @@ export const Container = styled.main`
       }
     }
   }
+
+  @media (max-width: 980px) {
+    section {
+      max-width: 315px;
+      padding: 60px 0;
+
+      h1 {
+        font-size: 21px;
+        line-height: 30px;
+        text-align: center;
+      }
+      div {
+        img {
+          width: 220px;
+          height: 190px;
+          margin: 0 auto;
+        }
+
+        p {
+          text-align: justify;
+        }
+      }
+      .access-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+          font-size: 21px;
+          width: 170px;
+          line-height: 30px;
+          text-align: center;
+        }
+
+        > div {
+          flex-direction: column;
+          align-items: center;
+
+          p {
+            width: 100%;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
 `;

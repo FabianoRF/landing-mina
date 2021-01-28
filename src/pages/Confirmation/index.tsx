@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react';
 import Header from '../../components/Header';
 
@@ -14,15 +15,15 @@ const Confirmation: React.FC = () => {
 
       <Container>
         <section>
-          <h1>Estamos juntos nessa causa! 💪</h1>
+          <h1>Estamos juntas nessa causa! 💪</h1>
 
           <div>
             <p>
               Estamos trabalhando duro para dar os últimos toques em nosso
               produto. Aos poucos estamos fornecendo acesso antecipado a Mina,
               então logo também chegará sua vez de experimentar nosso produto
-              🤩. Mal podemos esperar para que possa conferir nosso trabalho,
-              estamos ansiosos para saber sua opinião sobre ele.
+              <strong>🤩</strong>. Mal podemos esperar para que possa conferir
+              nosso trabalho, estamos ansiosos para saber sua opinião sobre ele.
             </p>
 
             <img src={willGif} alt="will feliz" />
